@@ -127,9 +127,9 @@ Two categories of documentation are generated at build time rather than written 
 
 This repository uses a dual license:
 
-**Code** (Fumadocs configuration, components, layouts, build scripts): **MIT** -- consistent with the Barazo frontend stack, encourages contributions.
+**Code** (Fumadocs configuration, components, layouts, build scripts): **MIT**
 
-**Content** (MDX documentation files in `content/`): **CC BY-SA 4.0** -- freely usable with attribution. Modifications must be shared under the same license.
+**Content** (MDX documentation files in `content/`): **CC BY-SA 4.0**
 
 See [LICENSE](LICENSE) for the code license and [LICENSE-CONTENT](LICENSE-CONTENT) for the content license.
 
