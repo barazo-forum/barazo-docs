@@ -11,8 +11,8 @@
 **Documentation site for the Barazo forum platform.**
 
 [![Status: Alpha](https://img.shields.io/badge/status-alpha-orange)]()
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Content: CC BY-SA 4.0](https://img.shields.io/badge/Content-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
+[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
+[![Code: MIT](https://img.shields.io/badge/Code-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Node.js](https://img.shields.io/badge/node-24%20LTS-brightgreen)](https://nodejs.org/)
 [![TypeScript](https://img.shields.io/badge/typescript-5.x-blue)](https://www.typescriptlang.org/)
 
@@ -127,11 +127,11 @@ Two categories of documentation are generated at build time rather than written 
 
 This repository uses a dual license:
 
-**Code** (Fumadocs configuration, components, layouts, build scripts): **MIT**
-
 **Content** (MDX documentation files in `content/`): **CC BY-SA 4.0**
 
-See [LICENSE](LICENSE) for the code license and [LICENSE-CONTENT](LICENSE-CONTENT) for the content license.
+**Code** (Fumadocs configuration, components, layouts, build scripts): **MIT**
+
+See [LICENSE](LICENSE) for the content license and [LICENSE-CODE](LICENSE-CODE) for the code license.
 
 ---
 
