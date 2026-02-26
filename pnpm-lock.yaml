@@ -7,6 +7,9 @@ settings:
 importers:
   .:
     dependencies:
+      '@radix-ui/colors':
+        specifier: 3.0.0
+        version: 3.0.0
       fumadocs-core:
         specifier: 16.6.5
         version: 16.6.5(@mdx-js/mdx@3.1.1)(@types/estree-jsx@1.0.5)(@types/hast@3.0.4)(@types/mdast@4.0.4)(@types/react@19.2.14)(lucide-react@0.570.0(react@19.2.4))(next@16.1.6(@babel/core@7.29.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(zod@4.3.6)
@@ -1106,6 +1109,12 @@ packages:
         integrity: sha512-a61ljmRVVyG5MC/698C8/FfFDw5a8LOIvyOLW5fztgUXqUpc1jOfQzOitSCbge657OgXXThmY3Tk8fpiDb4UcA==,
       }
     engines: { node: '>= 20.0.0' }
+
+  '@radix-ui/colors@3.0.0':
+    resolution:
+      {
+        integrity: sha512-FUOsGBkHrYJwCSEtWRCIfQbZG7q1e6DgxCIOe1SUQzDe/7rXXeA47s8yCn6fuTNQAj1Zq4oTFi9Yjp3wzElcxg==,
+      }
 
   '@radix-ui/number@1.1.1':
     resolution:
@@ -6602,6 +6611,8 @@ snapshots:
   '@nolyfill/is-core-module@1.0.39': {}
 
   '@orama/orama@3.1.18': {}
+
+  '@radix-ui/colors@3.0.0': {}
 
   '@radix-ui/number@1.1.1': {}
 
