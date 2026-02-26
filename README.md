@@ -28,33 +28,33 @@ Developer and admin documentation for [Barazo](https://github.com/barazo-forum),
 
 ## Tech Stack
 
-| Component | Technology |
-|-----------|-----------|
-| Framework | Fumadocs (Next.js 16 / React 19 / TypeScript strict) |
-| Styling | TailwindCSS |
-| API docs | fumadocs-openapi (auto-generated from OpenAPI spec) |
-| Type docs | fumadocs-typescript (auto-generated from source) |
-| Search | Orama (self-hosted, audience-scoped) |
-| Icons | Phosphor Icons |
-| Typography | Source Sans 3 / Source Code Pro (self-hosted) |
-| Output | Static export (zero server runtime) |
+| Component  | Technology                                           |
+| ---------- | ---------------------------------------------------- |
+| Framework  | Fumadocs (Next.js 16 / React 19 / TypeScript strict) |
+| Styling    | TailwindCSS                                          |
+| API docs   | fumadocs-openapi (auto-generated from OpenAPI spec)  |
+| Type docs  | fumadocs-typescript (auto-generated from source)     |
+| Search     | Orama (self-hosted, audience-scoped)                 |
+| Icons      | Phosphor Icons                                       |
+| Typography | Source Sans 3 / Source Code Pro (self-hosted)        |
+| Output     | Static export (zero server runtime)                  |
 
 ---
 
 ## Documentation Sections
 
-| Section | Audience | Description |
-|---------|----------|-------------|
-| Getting Started | Both | Quickstart overview |
-| Self-Hosting | Admin | Requirements, installation, configuration, upgrading |
-| Admin Guide | Admin | Moderation, categories, customization, plugins |
-| API Reference | Developer | Auto-generated from OpenAPI spec (interactive playground) |
-| Lexicon Reference | Developer | Auto-generated TypeScript type documentation |
-| AT Protocol | Developer | AT Protocol concepts for Barazo |
-| Plugin Development | Developer | Building and publishing plugins |
-| Contributing | Developer | Contributing to Barazo |
-| Migration | Admin | Migrating from other forum platforms |
-| FAQ | Both | Frequently asked questions |
+| Section            | Audience  | Description                                               |
+| ------------------ | --------- | --------------------------------------------------------- |
+| Getting Started    | Both      | Quickstart overview                                       |
+| Self-Hosting       | Admin     | Requirements, installation, configuration, upgrading      |
+| Admin Guide        | Admin     | Moderation, categories, customization, plugins            |
+| API Reference      | Developer | Auto-generated from OpenAPI spec (interactive playground) |
+| Lexicon Reference  | Developer | Auto-generated TypeScript type documentation              |
+| AT Protocol        | Developer | AT Protocol concepts for Barazo                           |
+| Plugin Development | Developer | Building and publishing plugins                           |
+| Contributing       | Developer | Contributing to Barazo                                    |
+| Migration          | Admin     | Migrating from other forum platforms                      |
+| FAQ                | Both      | Frequently asked questions                                |
 
 Audience-scoped sidebar tabs (Developer / Admin) provide separate navigation trees with scoped search.
 
@@ -85,6 +85,7 @@ pnpm typecheck    # TypeScript strict mode
 See [CONTRIBUTING.md](https://github.com/barazo-forum/.github/blob/main/CONTRIBUTING.md) for contribution guidelines.
 
 **Key standards:**
+
 - Strict TypeScript -- `strict: true`, no `any`, no `@ts-ignore`
 - WCAG 2.2 AA accessibility from first commit
 - Static export -- all pages pre-rendered at build time
@@ -104,14 +105,14 @@ Two categories of documentation are generated at build time rather than written 
 
 ## Related Repositories
 
-| Repository | Description | License |
-|------------|-------------|---------|
-| [barazo-api](https://github.com/barazo-forum/barazo-api) | AppView backend (Fastify, PostgreSQL, AT Protocol) | AGPL-3.0 |
-| [barazo-web](https://github.com/barazo-forum/barazo-web) | Forum frontend (Next.js, TailwindCSS) | MIT |
-| [barazo-lexicons](https://github.com/barazo-forum/barazo-lexicons) | AT Protocol schemas for forum data | MIT |
-| [barazo-deploy](https://github.com/barazo-forum/barazo-deploy) | Docker Compose templates for self-hosting | MIT |
-| [barazo-website](https://github.com/barazo-forum/barazo-website) | Marketing site (Astro) | Proprietary |
-| [barazo-workspace](https://github.com/barazo-forum/barazo-workspace) | Project coordination and shared tooling | MIT |
+| Repository                                                           | Description                                        | License     |
+| -------------------------------------------------------------------- | -------------------------------------------------- | ----------- |
+| [barazo-api](https://github.com/barazo-forum/barazo-api)             | AppView backend (Fastify, PostgreSQL, AT Protocol) | AGPL-3.0    |
+| [barazo-web](https://github.com/barazo-forum/barazo-web)             | Forum frontend (Next.js, TailwindCSS)              | MIT         |
+| [barazo-lexicons](https://github.com/barazo-forum/barazo-lexicons)   | AT Protocol schemas for forum data                 | MIT         |
+| [barazo-deploy](https://github.com/barazo-forum/barazo-deploy)       | Docker Compose templates for self-hosting          | MIT         |
+| [barazo-website](https://github.com/barazo-forum/barazo-website)     | Marketing site (Astro)                             | Proprietary |
+| [barazo-workspace](https://github.com/barazo-forum/barazo-workspace) | Project coordination and shared tooling            | MIT         |
 
 ---
 
