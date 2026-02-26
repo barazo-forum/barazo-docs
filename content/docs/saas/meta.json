@@ -1,0 +1,6 @@
+{
+  "title": "SaaS Admin",
+  "description": "Dashboard, billing, and settings for managed Barazo forums",
+  "root": true,
+  "pages": ["index", "..."]
+}
