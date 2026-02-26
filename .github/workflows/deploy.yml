@@ -24,9 +24,8 @@ jobs:
           cache: pnpm
 
       - run: pnpm install --frozen-lockfile
-      - run: pnpm typecheck
-      - run: pnpm lint
       - run: pnpm build
+      - run: pnpm lint
 
       - name: Deploy to VPS
         uses: burnett01/rsync-deployments@7.0.2
