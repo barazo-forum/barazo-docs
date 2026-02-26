@@ -23,6 +23,7 @@
     "prepare": "husky"
   },
   "dependencies": {
+    "@radix-ui/colors": "3.0.0",
     "fumadocs-core": "16.6.5",
     "fumadocs-mdx": "14.2.8",
     "fumadocs-ui": "16.6.5",
